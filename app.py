@@ -6,3 +6,4 @@ ip = st.text_input('Enter your review: ')
 op = test_model.predict([ip])
 if st.button('Sentiment Prediction'):
   st.title(op[0])
+ 
